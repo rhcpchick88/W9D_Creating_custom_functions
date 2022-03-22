@@ -20,14 +20,10 @@ function length(str1){
 
 var str1='Hallo'; //tested my string lengths and the function itself.
 
-length(str1);
-
-// this one I couldn't get working for some reason 
-
-function startsWith(str2){
-    result = str2.toString(str2).startsWith('ph'); //tried filtering out words starting with ph and then logging the result
-    console.log(result);
+//named my function
+startsWith(words); 
+function startsWith(words){
+    words.filter(startsWith('ph'));
+        return words;
 }
-
-var str2 = ['street','tree','photo','lamp','phone'] //created my array
-startsWith(str2); //prints out false not sure why
+var words = ['street','tree','photo','lamp','phone']; //created my array
