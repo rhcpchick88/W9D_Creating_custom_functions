@@ -9,4 +9,14 @@ var integer2=50;
 
 mathematics(integer1,integer2); //since it automatially prints the result I just have to state the function.
 
+function truefalse(str){
+    if (str.length>10){
+        console.log('This string is more than 10 characters');
+    } else{
+        console.log('This string is 10 characters or less')
+    }
+}
 
+var str='Hallo';
+
+truefalse(str);
